@@ -106,9 +106,6 @@ const getDiffs = function (list) {
     .sort((a, b) => {
       return b.count - a.count;
     });
-  for (let i = 0; i < 20; i++) {
-    const diffs = getDiffs(resultArr[i].list);
-    console.log(gcdArr(diffs));
-    console.log(resultArr[i].word, resultArr[i].count);
-  }
+  const diffs = getDiffs(resultArr[0].list);
+  console.log("Key length: ", gcdArr(diffs));
 })();
