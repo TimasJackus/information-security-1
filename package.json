@@ -4,7 +4,7 @@
     "start": "ts-node kasiski.ts"
   },
   "dependencies": {
-    "decode-encode-binary": "^1.4.14",
+    "decode-encode-binary": "^1.4.16",
     "nodemon": "^2.0.6",
     "prettier": "^2.1.2",
     "ts-node": "^9.0.0",
